@@ -1,0 +1,8 @@
+~$*
+._*
+_*
+*.pyc
+*.swp
+.DS_Store
+LOCAL/
+result/
