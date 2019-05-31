@@ -3,7 +3,7 @@
 |内容|資料|URL|
 |:-|:-|:-|
 |ROSの概要を知る|はじめに|http://wiki.ros.org/ja/ROS/Introduction|
-|ROSのコンセプトを知る（ノード／マスター，コミュニティ／リポジトリ）	ROS Wiki : コンセプト	http://wiki.ros.org/ja/ROS/Concepts
+|ROSのコンセプトを知る（ノード／マスター，コミュニティ／リポジトリ）|ROS Wiki : コンセプト|http://wiki.ros.org/ja/ROS/Concepts
 |ROSで必要となる最低限のLinuxコマンドを学ぶ|開発で必要な最低限のUbuntuのコマンド（cd, ls, mkdir）	| |
 |ワークスペースの作り方を学ぶ|ROS Wiki : ROS環境のセットアップ|http://wiki.ros.org/ja/ROS/Tutorials/InstallingandConfiguringROSEnvironment|
 |ROSパッケージの作り方を学ぶ|ROS Wiki : ROSパッケージを作る|http://wiki.ros.org/ja/ROS/Tutorials/CreatingPackage|
