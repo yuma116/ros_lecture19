@@ -55,7 +55,7 @@ $ roslaunch turtlebot3_bringup turtlebot3_robot.launch
 
 ### Terminal3
 ```
-$ source ~/ros_ws/turtlebot/setting.sh
-$ source ~/ros_ws/turtlebot/turtlebot_ws/devel/setup.bash
+$ source ~/ros_ws/upm/turtlebot/setting.sh
+$ source ~/ros_ws/upm/turtlebot/turtlebot_ws/devel/setup.bash
 $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
