@@ -1,11 +1,10 @@
 # TurtleBot3 超簡易マニュアル
 
-# 最初にやってみよう！
 ## 事前準備
 * 右上のネットワークアイコンをクリック→「Enable Wi-Fi」のチェックを外す→「toTurtleBot3」をクリック
 * TurtleBotの電源を入れる
 
-## 次にやってみよう！
+## 最初にやってみよう！
 ### Terminal1
 ```
 $ source ~/ros_ws/upm/turtlebot/setting.sh
@@ -40,7 +39,7 @@ $ rostopic pub cmd_vel geometry_msgs/Twist “linear :
 	z : 0.0”
 ```
 
-## 最後にやってみよう！
+## 次にやってみよう！
 ### Terminal1
 ```
 $ source ~/ros_ws/upm/turtlebot/setting.sh
