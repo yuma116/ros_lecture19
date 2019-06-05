@@ -19,7 +19,7 @@ $ roslaunch turtlebot3_bringup turtlebot3_robot.launch
 
 ### Terminal3
 ```
-$ source ~/ros_ws/turtlebot/setting.sh
+$ source ~/ros_ws/upm/turtlebot/setting.sh
 $ rostopic pub cmd_vel geometry_msgs/Twist “linear :
 	x : 1.0
 	y : 0.0
