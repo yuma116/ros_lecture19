@@ -40,8 +40,7 @@ $ rostopic pub cmd_vel geometry_msgs/Twist “linear :
 	z : 0.0”
 ```
 
-
-## 最後にやってみよう！
+## 最後にやってみよう！
 ### Terminal1
 ```
 $ source ~/ros_ws/turtlebot/setting.sh
