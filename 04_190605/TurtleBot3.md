@@ -43,7 +43,7 @@ $ rostopic pub cmd_vel geometry_msgs/Twist “linear :
 ## 最後にやってみよう！
 ### Terminal1
 ```
-$ source ~/ros_ws/turtlebot/setting.sh
+$ source ~/ros_ws/upm/turtlebot/setting.sh
 $ roscore
 ```
 
