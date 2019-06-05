@@ -7,7 +7,7 @@
 ## 最初にやってみよう！
 ### Terminal1
 ```
-$ source ~/ros_ws/upm/turtlebot/setting.sh
+$ source ~/ros_ws/upm/turtlebot_ws/setting.sh
 $ roscore
 ```
 
@@ -19,7 +19,7 @@ $ roslaunch turtlebot3_bringup turtlebot3_robot.launch
 
 ### Terminal3
 ```
-$ source ~/ros_ws/upm/turtlebot/setting.sh
+$ source ~/ros_ws/upm/turtlebot_ws/setting.sh
 $ rostopic pub cmd_vel geometry_msgs/Twist “linear :
 	x : 1.0
 	y : 0.0
@@ -42,7 +42,7 @@ $ rostopic pub cmd_vel geometry_msgs/Twist “linear :
 ## 次にやってみよう！
 ### Terminal1
 ```
-$ source ~/ros_ws/upm/turtlebot/setting.sh
+$ source ~/ros_ws/upm/turtlebot_ws/setting.sh
 $ roscore
 ```
 
@@ -54,7 +54,7 @@ $ roslaunch turtlebot3_bringup turtlebot3_robot.launch
 
 ### Terminal3
 ```
-$ source ~/ros_ws/upm/turtlebot/setting.sh
-$ source ~/ros_ws/upm/turtlebot/turtlebot_ws/devel/setup.bash
+$ source ~/ros_ws/upm/turtlebot_ws/setting.sh
+$ source ~/ros_ws/upm/turtlebot_ws/devel/setup.bash
 $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
