@@ -1,6 +1,5 @@
 # 第4回講習
-## 講習内容
-
+## テキスト
 |内容|資料|URL|
 |:-|:-|:-|
 |TurtleBot3を動かしてみる|TurtleBot e-Manual : Teleoperation|[English](http://emanual.robotis.com/docs/en/platform/turtlebot3/teleoperation/#teleoperation)|
