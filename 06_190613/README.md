@@ -1,5 +1,5 @@
-# 第5回講習
-
+# 第6回講習
+## テキスト
 |内容|資料|URL|
 |:-|:-|:-|
 |C++でActionLibを扱う書き方を学ぶ|ROS wiki： コールバックを用いてシンプルなアクションサーバーを書く ／ Writing a Simple Action Server using the Execute Callback|[日本語版](http://wiki.ros.org/ja/actionlib_tutorials/Tutorials/SimpleActionServer%28ExecuteCallbackMethod%29) [English](http://wiki.ros.org/actionlib_tutorials/Tutorials/SimpleActionServer%28ExecuteCallbackMethod%29)|
