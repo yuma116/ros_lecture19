@@ -4,6 +4,8 @@
 |:-|:-|:-|
 |TFについて学ぶ|ROS wiki: tf を用いたロボットのセットアップ ／ Setting up your robot using tf|[日本語](http://wiki.ros.org/ja/navigation/Tutorials/RobotSetup/TF) [English](http://wiki.ros.org/navigation/Tutorials/RobotSetup/TF)|
 
+http://wiki.ros.org/ja/tf#A.2BMMEw5TD8MMgw6jCiMOs-
+
 ## 課題
 1. C++版，皿を洗うコード（白い本PP.50-51）を用意しました．[simple_action_server.cpp](https://github.com/yuma116/ros_lecture19/blob/master/06_190613/simple_action_server.cpp)と[simple_action_client.cpp](https://github.com/yuma116/ros_lecture19/blob/master/06_190613/simple_action_client.cpp)をlecture_pkg内の適切な場所に配置し，CMakeList.txtを書き換え，ビルドを通して実行してください．なお，本コードは白い本の丸写しであるので，環境の違いからそのままでは動きません．適切に修正してください．
 2. 前回のコードは，「皿洗い」を実行するコードでした．サーバ側のソフト（simple_action_server.py or .cpp）を，「feedbackで皿洗いの進捗を送る（「10, 20, ..., 90, 100」という数字をfeedbackで送る」ようなコードに変更してください．なお，クライアント側のソフトを修正する必要はありません．完成したら，適切なROSコマンドで結果を確認してください．
