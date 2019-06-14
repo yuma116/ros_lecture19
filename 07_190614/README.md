@@ -8,6 +8,6 @@
 |TFの座標を確認してみる|ROS wiki: tf listenerを書く (Python) ／ Writing a tf listener (Python)|[日本語](http://wiki.ros.org/ja/tf/Tutorials/Writing%20a%20tf%20listener%20%28Python%29) [English](http://wiki.ros.org/tf/Tutorials/Writing%20a%20tf%20listener%20%28Python%29)|
 
 ## 課題
-1. static_tf.launchを作成し，静的に画像のようなTFを発行するコードを書いてください．
+1. static_tf.launchを作成し，画像のようなTFを静的に発行するコードを書いてください．
 2. [tf_listener.py](https://github.com/yuma116/ros_lecture19/blob/master/07_190614/tf_listener.py)をダウンロードし，動作を確認してください．
 3. [tf_listener.py](https://github.com/yuma116/ros_lecture19/blob/master/07_190614/tf_listener.py)を改造して，link1フレームから見たときのlink4フレームの座標を求めてください．
