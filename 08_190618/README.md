@@ -2,8 +2,8 @@
 ## テキスト
 |内容|資料|URL|
 |:-|:-|:-|
-|ROSで画像を扱う|テキスト||
-||||
+|ROSで画像を扱う      |テキスト||
+|ROS bagの使い方を知る|rosbag/Commandline|[English](http://wiki.ros.org/rosbag/Commandline)|
 
 
 |TFについて学ぶ|ROS wiki: tf を用いたロボットのセットアップ ／ Setting up your robot using tf|[日本語](http://wiki.ros.org/ja/navigation/Tutorials/RobotSetup/TF) [English](http://wiki.ros.org/navigation/Tutorials/RobotSetup/TF)|
