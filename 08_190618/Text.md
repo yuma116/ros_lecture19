@@ -1,6 +1,6 @@
 # rosbag
 ### カメラの使用方法
-* 参考「uvc_camera」（(English)[http://wiki.ros.org/uvc_camera]）
+* 参考「uvc_camera」（[English](http://wiki.ros.org/uvc_camera)）
 ```
 [Terminal 1]
 $ roscore
@@ -14,7 +14,7 @@ $ rviz
 ```
 
 ### ROS bagの使用方法
-* 参考「ROS bag」（(日本語)[http://wiki.ros.org/ja/rosbag]，(English)[http://wiki.ros.org/rosbag]）
+* 参考「ROS bag」（[日本語](http://wiki.ros.org/ja/rosbag)，[English](http://wiki.ros.org/rosbag)）
 
 
 
