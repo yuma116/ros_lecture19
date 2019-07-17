@@ -1,8 +1,11 @@
+
 ~$*
 ._*
 _*
 *.pyc
+*.txt
 *.swp
+*.out
 .DS_Store
 LOCAL/
 result/
