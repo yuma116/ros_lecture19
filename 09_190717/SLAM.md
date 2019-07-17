@@ -4,8 +4,8 @@
 * 右上のネットワークアイコンをクリック→「Enable Wi-Fi」のチェックを外す→「toTurtleBot3」をクリック
 * TurtleBotの電源を入れる
 * sshでTurtleBotに繋いで時刻同期をする
-** ssh：`$ ssh turtlebot@192.168.0.2 または ssh turtlebot302@192.168.0.2 または ssh turtlebot304@192.168.0.2`
-** 時刻を合わせるコマンド： `$ sudo date -s "2019/7/17 20:44:10"`
+  * ssh：`$ ssh turtlebot@192.168.0.2 または ssh turtlebot302@192.168.0.2 または ssh turtlebot304@192.168.0.2`
+  * 時刻を合わせるコマンド： `$ sudo date -s "2019/7/17 20:44:10"`
 
 ## 地図を作ってみよう！
 ### Terminal1　：roscoreを立てる
