@@ -9,5 +9,5 @@
 
 ## 課題
 1. static_tf.launchを作成し，画像のようなTFを静的に発行するコードを書いてください．
-2. [tf_listener.py](https://github.com/yuma116/ros_lecture19/blob/master/07_190614/tf_listener.py)をダウンロードし，動作を確認してください．
-3. [tf_listener.py](https://github.com/yuma116/ros_lecture19/blob/master/07_190614/tf_listener.py)を改造して，link1フレームから見たときのlink4フレームの座標を求めてください．
+2. [tf_listener.py](tf_listener.py)をダウンロードし，動作を確認してください．
+3. [tf_listener.py](tf_listener.py)を改造して，link1フレームから見たときのlink4フレームの座標を求めてください．
