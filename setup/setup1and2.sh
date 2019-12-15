@@ -12,13 +12,13 @@ echo ==========================================
 echo " turtlebot_wsセットアップ "
 echo ==========================================
 sudo apt -y install git
-mkdir -p ~/ros_ws/upm/turtlebot_ws/src
-cd ~/ros_ws/upm/turtlebot_ws/src
+mkdir -p ~/ros_ws/robot/turtlebot_ws/src
+cd ~/ros_ws/robot/turtlebot_ws/src
 git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
 git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
-cd ~/ros_ws/upm/turtlebot_ws/ && catkin_make
-cd ~/ros_ws/upm/turtlebot_ws/ && catkin_make
-cd ~/ros_ws/upm/turtlebot_ws/ && catkin_make
+cd ~/ros_ws/robot/turtlebot_ws/ && catkin_make
+cd ~/ros_ws/robot/turtlebot_ws/ && catkin_make
+cd ~/ros_ws/robot/turtlebot_ws/ && catkin_make
 
 
 
@@ -26,12 +26,12 @@ echo -e "\n\n\n"
 echo ==========================================
 echo " TurtleBot環境設定用bashファイル用意 "
 echo ==========================================
-rm ~/ros_ws/upm/turtlebot_ws/setting.sh
-touch ~/ros_ws/upm/turtlebot_ws/setting.sh
-echo 'export ROS_MASTER_URI=http://192.168.0.1:11311' >> ~/ros_ws/upm/turtlebot_ws/setting.sh
-echo 'export ROS_HOSTNAME=192.168.0.1' >> ~/ros_ws/upm/turtlebot_ws/setting.sh
-echo 'export TURTLEBOT3_MODEL=burger' >> ~/ros_ws/upm/turtlebot_ws/setting.sh
-cat ~/ros_ws/upm/turtlebot_ws/setting.sh
+rm ~/ros_ws/robot/turtlebot_ws/setting.sh
+touch ~/ros_ws/robot/turtlebot_ws/setting.sh
+echo 'export ROS_MASTER_URI=http://192.168.0.1:11311' >> ~/ros_ws/robot/turtlebot_ws/setting.sh
+echo 'export ROS_HOSTNAME=192.168.0.1' >> ~/ros_ws/robot/turtlebot_ws/setting.sh
+echo 'export TURTLEBOT3_MODEL=burger' >> ~/ros_ws/robot/turtlebot_ws/setting.sh
+cat ~/ros_ws/robot/turtlebot_ws/setting.sh
 
 
 echo -e "\n\n\n"
