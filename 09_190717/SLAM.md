@@ -35,10 +35,11 @@ $ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 ```
 
 ## 地図を保存してみよう！
-* 「地図を作成してみよう！」のコマンドを叩き，ロボットを動かして地図を作り終えたら，下記を実行する
+* 「地図を作ってみよう！」のコマンドを叩き，ロボットを動かして地図を作り終えたら，下記を実行する
 
 ### Terminal5　：地図を保存する
 ```
 $ source ~/ros_ws/upm/turtlebot_ws/setting.sh
 $ rosrun map_server map_saver -f ~/map
 ```
+* すると，ホームフォルダに地図データが生成されているので，確認する

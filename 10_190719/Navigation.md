@@ -16,7 +16,7 @@ $ roscore
 
 ### Terminal2　：TurtleBotのシステムを起動する
 ```
-$ ssh turtlebot@192.168.0.2 または ssh turtlebot302@192.168.0.2 または ssh turtlebot304@192.168.0.2
+$ ssh turtlebot30X@192.168.0.2
 $ roslaunch turtlebot3_bringup turtlebot3_robot.launch
 ```
 
