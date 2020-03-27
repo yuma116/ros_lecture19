@@ -16,7 +16,7 @@ if __name__ == "__main__" :
     goal.target_pose.pose.position.x = 0.00 #0.12
     goal.target_pose.pose.position.y = 0.48 #0.46
     goal.target_pose.pose.orientation.w = 0.01
-    print goal
+    print(goal)
     client.send_goal(goal)
-    print client.wait_for_result()
+    print(client.wait_for_result())
   except rospy.ROSInterruptException: pass
