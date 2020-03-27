@@ -8,7 +8,7 @@
 |ナビゲーションを動かしてみる|TurtleBot3 ナビゲーション実行マニュアル|[日本語](Navigation.md)|
 
 ## 課題
-1. 第9回で作成した地図を用いて，ナビゲーションシステムを動かしてください．
+1. 第9回で作成した地図を用いて，ナビゲーションシステムを動かしてください．[TurtleBot3 ナビゲーション実行マニュアル](Navigation.md)を参照すること．
 2. RVIZ上で「2D Pose Estimate」を使用し，ロボットの位置を初期化してください．
 3. RVIZ上で「2D Nav Goal」を使用し，ロボットに「ナビゲーションさせて」ください．ロボットが自動でゴール地点へ向かって動き出し，停止したら成功です．[このページ](http://emanual.robotis.com/docs/en/platform/turtlebot3/navigation/#ros-1-navigation)の「10.3. Send Navigation Goal」を参照すること．
 4. [Navigation.py](Navigation.py)を使用して，「3.」をプログラムに自動でさせてください．なお，必要があればプログラム中のパラメタを調整してください．
