@@ -6,9 +6,9 @@
 
 ## セットアップ方法
 1. Terminalを起動する．
-2. `$ wget https://github.com/yuma116/ros_lecture19/raw/master/setup/setup1and2.sh`コマンドを実行する
-3. `$ bash setup1and2.sh`コマンドを実行する
-4. `$ rm setup1and2.sh`コマンドを実行する
+2. `$ wget https://github.com/yuma116/ros_lecture19/raw/master/setup/setup_tertlebot.sh`コマンドを実行する
+3. `$ bash setup_tertlebot.sh`コマンドを実行する
+4. `$ rm setup_tertlebot.sh`コマンドを実行する
 
 ## 備考
 - インターネットに接続した環境で実行してください．
